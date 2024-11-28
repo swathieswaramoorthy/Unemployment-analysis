@@ -3,7 +3,6 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
 
-# Load the datasets
 file1_path = 'Unemployment in India.csv'
 file2_path = 'Unemployment_Rate_upto_11_2020.csv'
 

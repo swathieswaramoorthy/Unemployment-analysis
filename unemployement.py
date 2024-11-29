@@ -9,8 +9,6 @@ file2_path = 'Unemployment_Rate_upto_11_2020.csv'
 data1 = pd.read_csv(file1_path)
 data2 = pd.read_csv(file2_path)
 
-# Step 1: Cleaning and Harmonizing Columns
-# Strip extra spaces from column names
 data1.columns = data1.columns.str.strip()
 data2.columns = data2.columns.str.strip()
 

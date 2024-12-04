@@ -12,7 +12,6 @@ data2 = pd.read_csv(file2_path)
 data1.columns = data1.columns.str.strip()
 data2.columns = data2.columns.str.strip()
 
-# Drop duplicate or unnecessary columns
 if 'Region.1' in data2.columns:
     data2 = data2.drop(columns=['Region.1'])
 
